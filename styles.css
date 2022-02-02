@@ -137,9 +137,17 @@ nav .navigation ul li a:hover {
     text-align: center;
 }
 
+#features .fea-base {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
 #features .fea-box {
     background: #F9F9FF;
     text-align: start;
+    padding: 10px;
 }
 
 #features .fea-box i {
@@ -152,6 +160,12 @@ nav .navigation ul li a:hover {
     font-weight: 600;
     color: rgb(46, 46, 59);
     padding: 13px 0 7px 0;
+}
+
+#features .fea-box p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(70, 70, 87);
 }
 
 
