@@ -5,6 +5,7 @@
 <p>Desktop View</p>
 <img src="images/imagen.png">
 
-
+<p>Tablet View</p>
+<img src="images/imagen-2.png">
 
 <p>Page Under Development</p>
