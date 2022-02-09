@@ -735,6 +735,13 @@ footer .copyright .parrafo-oculto {
     #trust .trust-img img {
         width: 50px;
     }
+
+    /* ==================================== */
+    /* =====                   BLOG PAGE                  ===== */
+    /* ==================================== */
+    #blog-container {
+        padding: 8vw 4vw;
+    }
 }
 
 @media (max-width: 475px) {
@@ -804,6 +811,21 @@ footer .copyright .parrafo-oculto {
         margin: 10px 15px;
     }
 
+    /* ==================================== */
+    /* =====                   BLOG PAGE                  ===== */
+    /* ==================================== */
+
+    #blog-container {
+        flex-direction: column;
+    }
+
+    #blog-container .blogs {
+        width: 100%;
+    }
+
+    #blog-container  .cate{
+        width: 100%;
+    }
 
 }
 
