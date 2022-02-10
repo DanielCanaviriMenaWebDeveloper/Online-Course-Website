@@ -604,6 +604,22 @@ footer .copyright .parrafo-oculto {
     line-height: 45px;
 }
 
+/* ==================================== */
+/* =====                   POST PAGE                  ===== */
+/* ==================================== */
+#blog-container .blogpost {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#blog-container .blogpost p {
+    text-align: justify;
+}
+
+#blog-container .blogpost .post a {
+    margin-top: 10px;
+    display: inline-block;
+}
 
 
 
@@ -742,6 +758,19 @@ footer .copyright .parrafo-oculto {
     #blog-container {
         padding: 8vw 4vw;
     }
+
+    /* ==================================== */
+    /* =====                   POST PAGE                   ===== */
+    /* ==================================== */
+    #blog-container .blogpost {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    #blog-container .blogpost img {
+        height: 50vh;
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 475px) {
@@ -827,6 +856,18 @@ footer .copyright .parrafo-oculto {
         width: 100%;
     }
 
+    /* ==================================== */
+    /* =====                   POST PAGE                   ===== */
+    /* ==================================== */
+    #blog-container .blogpost {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    #blog-container .blogpost img {
+        height: 50vh;
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 360px) {
